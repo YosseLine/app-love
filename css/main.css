@@ -1,0 +1,188 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+header{
+  /*outline: 1px solid red;*/
+  position:fixed;
+  font-weight:bold;
+  background: white;
+  width: 100%;
+  height:100px;
+  top:0px;
+  z-index:1000;
+}
+nav{
+  /*outline: 1px solid blue;*/
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  left:10%;
+  padding:10px;
+
+}
+nav a {
+  margin:20px;
+}
+img[alt='applove']{
+  /*outline: 1px solid blue;*/
+  float:right;
+  width: 70px;
+  margin-right: 8%;
+
+}
+section{
+  width:100%
+  outline: solid 1px green;
+
+}
+
+#bg-home{
+  width:100%;
+  height:100%;
+  position: relative;
+  top:82px;
+  background-image:url(../assets/images/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  color: white;
+
+ }
+
+  #bg-home>h2{
+  /*outline: solid 1px green;*/
+  padding: 100px 0px 40px 0px;
+  font-weight: bold;
+  margin: 0px;
+  position: relative;
+   }
+
+  #bg-home>h1{
+  /*outline: solid 1px purple;*/
+  position: relative;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0px;
+
+  }
+
+  #bg-home>p{
+  /*outline: solid 1px purple;*/
+  position: relative;
+  padding: 10px;
+  font-size: 15px;
+  margin: 0px;
+
+  }
+
+  #bg-home>button{
+  /*outline: solid 1px greenyellow;*/
+  padding: 15px;
+  color: #fff;
+  border: 0px;
+  font-weight: 600;
+  background-color: #2ecc71;
+  margin: 70px 0px 110px 0px;
+  }
+
+  button a {
+  color: white;
+  }
+
+  button a:hover {
+  color: white;
+  }
+
+  #bg-services{
+  /*outline:1px solid purple;*/
+  background-color:#f17c72;
+  background-size: 100%;
+  color: #fff;
+  width:100%;
+  height:100%;
+  position: relative;
+  top:60px;
+  text-align: center;
+  margin: 0px;
+  padding:0px;
+  }
+
+ #bg-services>h2{
+  /*outline: dotted 1px green;*/
+  font-size:30px;
+  font-weight: bold;
+  margin: 0px;
+  position: relative;
+  padding: 85px 0px 0px 0px;
+   }
