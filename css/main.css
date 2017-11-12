@@ -22,7 +22,7 @@ img {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-left: 14px;
@@ -88,7 +88,6 @@ nav{
   transform: translateY(-50%);
   left:10%;
   padding:10px;
-
 }
 nav a {
   margin:20px;
@@ -186,3 +185,90 @@ section{
   position: relative;
   padding: 85px 0px 0px 0px;
    }
+ #bg-services>h4{
+   font-weight: bold;
+   margin: 0px;
+   padding: 40px 0px 0px 0px;
+   position: relative;
+   }
+
+  #blockservices{
+   font-weight: bold;
+   padding: 100px 150px 75px 150px;
+  }
+
+  .services{
+   display: inline-block;
+   margin: 0px;
+   padding: 0px;
+   position: relative;
+   width:33%;
+  }
+
+  .services>img{
+   margin:20px;
+   max-width: 60%;
+  }
+
+  .services>h5,.services>h6{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #bg-work{
+    background-color:#fff;
+    background-size: 100%;
+    color: #000;
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    top:60px;
+    width:100%;
+  }
+
+  #bg-work>h2{
+     font-size:30px;
+     font-weight: bold;
+     margin: 0px;
+     position: relative;
+     padding: 70px 0px 0px 0px;
+  }
+
+  #bg-work>h4{
+     color:#424242;
+     margin: 0px;
+     position: relative;
+     padding: 30px 0px 40px 0px;/
+ }
+
+  #bg-work>img{
+     width: 70%;
+  }
+
+  .projects{
+     color:#424242;
+     display: inline-block;
+     margin: 0px;
+     padding: 0px;
+     position: relative;
+     text-align:center;
+     width:33%;
+  }
+
+  .projects>img{
+     margin-top:50px;
+     max-width: 75%;
+ }
+
+  footer{
+     background-color:#373B47;
+     color:#fff;
+     font-weight: bold;
+     margin: 0px;
+     padding: 10px;
+     position: relative;
+     text-align:center;
+     top:100px;
+ }
